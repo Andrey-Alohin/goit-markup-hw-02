@@ -1,0 +1,15 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;
+    background-color: #fff;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
