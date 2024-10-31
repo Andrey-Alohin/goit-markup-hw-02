@@ -134,7 +134,7 @@ a {
 .bottom-section {
     background-color: #2e2f42;
 }
-.bottom-section > .logo-part{
+.bottom-section .logo-part{
     color: #f4f4fd;
 }
 .bottom-section-text {
