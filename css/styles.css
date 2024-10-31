@@ -17,42 +17,57 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-}
-.logo span {
     color: #4d5ae5;
 }
-.top-bar a:hover,
-.top-bar a:focus{
-    color: #404bbf;
+.header-bar > .logo-part{
+    color: #2e2f42;
 }
-.contacts a{
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-contacts{
+    font-style: normal;
+}
+.contacts-link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
-.contacts a:hover,
-.contacts a:focus{
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus{
     color: #404bbf;
 }
 .start-screen {
     background-color: #2e2f42;
-    color: #fff;
 }
 .start-screen-title {
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #fff;
 }
 .start-screen-button {
     background-color: #4d5ae5;
     color: #fff;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0.04em;
 }
-.start-screen-button:hover {
+.start-screen-button:hover,
+.start-screen-button:focus {
     cursor: pointer;
+    background-color: #404bbf;
 }
 .advantages-title{
     font-weight: 700;
@@ -65,8 +80,10 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.advantages-item-text {
+    letter-spacing: 0.02em;
 }
 .our-team {
     background-color:  #f4f4fd;
@@ -74,39 +91,53 @@ a {
 .our-team-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+}
+.our-team-item{
+    background-color: #fff;
 }
 .our-team-item-header{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
 .our-team-item-text {
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
 .portfolio-item-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.portfolio-item-text {
+    letter-spacing: 0.02em;
 }
 .bottom-section {
     background-color: #2e2f42;
 }
-.bottom-section > .logo {
+.bottom-section > .logo-part{
     color: #f4f4fd;
 }
 .bottom-section-text {
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
