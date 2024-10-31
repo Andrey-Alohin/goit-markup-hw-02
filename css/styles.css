@@ -22,7 +22,7 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.header-bar .logo-part{
+.header-bar > .logo > .logo-part{
     color: #2e2f42;
 }
 .nav-link{
@@ -134,7 +134,7 @@ a {
 .bottom-section {
     background-color: #2e2f42;
 }
-.bottom-section .logo-part{
+.bottom-section > .logo > .logo-part{
     color: #f4f4fd;
 }
 .bottom-section-text {
