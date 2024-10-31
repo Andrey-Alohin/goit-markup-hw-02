@@ -22,7 +22,7 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.header-bar > .logo-part{
+.header-bar .logo-part{
     color: #2e2f42;
 }
 .nav-link{
